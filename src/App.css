@@ -1,0 +1,36 @@
+.app {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+}
+
+.nav {
+	flex: 12;
+	background-color: rgb(33, 2, 52);
+}
+
+.main {
+	padding: 5px;
+	flex: 68;
+	overflow: scroll;
+}
+
+.file {
+	border-top: solid 1px;
+	height: 40px
+}
+
+.files-container {
+	display: flex;
+	flex-direction: column;
+	overflow: scroll;
+}
+
+.selected {
+	background-color: rgb(30, 83, 52);
+}
+
+.foot {
+	flex: 10
+}
